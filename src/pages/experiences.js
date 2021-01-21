@@ -1,0 +1,19 @@
+import React from "react"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const ExperiencePage = () => (
+  <Layout>
+    <SEO title="Experiences" />
+    <h1>Experiences</h1>
+    <p>
+      Since the internet was booming, pretty much came out the solution from ground up. 
+      Understanding all the know how, solving the complications. 
+      Also I came out some pioneer solutions to save the network bandwidth.
+      My spiritual fundamental are tidy code and optimal calculation.
+    </p>
+  </Layout>
+)
+
+export default ExperiencePage
