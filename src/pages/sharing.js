@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Image from "../components/image"
 
 const SharingPage = () => (
   <Layout>
@@ -22,7 +23,15 @@ const SharingPage = () => (
       <br/>
       <ul>
         <li>
-          There are some tech stacks of web developments. For example, REST, GraphQL, gRPC
+          There are some tech stacks of web developments. For example, REST, GraphQL, gRPC.
+          <br/>
+          <div class="d-flex justify-content-center">
+            <div style={{ 
+              width: `100%`
+            }}>
+              <Image name="bookstore.svg" alt="Life > Develop > Work > Focus > Life"/>
+            </div>
+          </div>
         </li>
         <li>
           Comparsions and diferences.

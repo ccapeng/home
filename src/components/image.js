@@ -36,6 +36,12 @@ const Image = ({name, alt, className}) => {
           extension
         }
       }
+      bookstoreSVG: allFile(filter: {sourceInstanceName: {eq: "images"}, extension: {eq: "svg"}, name: {eq: "bookstore"}}) {
+        nodes {
+          publicURL
+          extension
+        }
+      }
     }
   `)
 
@@ -47,6 +53,11 @@ const Image = ({name, alt, className}) => {
     return <Img fluid={data.boatImage.childImageSharp.fluid} alt={alt} className={className} />
   } else if (name === "life.svg") {
     const image = data.lifeSVG.nodes.find(
+      ({ publicURL }) => publicURL && publicURL.indexOf(name) !== -1
+    );
+    return <img src={image.publicURL} alt={alt} className={className}/>
+  } else if (name === "bookstore.svg") {
+    const image = data.bookstoreSVG.nodes.find(
       ({ publicURL }) => publicURL && publicURL.indexOf(name) !== -1
     );
     return <img src={image.publicURL} alt={alt} className={className}/>

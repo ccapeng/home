@@ -31,6 +31,11 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li class="nav-item">
+            <Link className="nav-link" to="/portfolio" activeClassName="active">
+              Portfolio 
+            </Link>
+          </li>
+          <li class="nav-item">
             <Link className="nav-link" to="/experiences" activeClassName="active">
               Experiences
             </Link>

@@ -1,0 +1,18 @@
+ul.d-flex {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    li {
+        width:50%;
+        a {
+            background-color: #7c8fae;
+            color:#f1f2f3;
+            display: block;
+            padding: 2rem;
+            margin-right: 1rem;
+            &:hover {
+                background-color: #e2c165
+            }
+        }
+    }
+}
