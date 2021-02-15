@@ -49,7 +49,7 @@ const PortfolioPage = () => (
         </h2>
         <p class="text-secondary">
           Use BPMN to create quick flowchart. 
-          For each node can be easy to bundle properties or form data.
+          Each node can be easy to associate with properties or form data.
         </p>
         <ul class="ml-0">
           <li class="d-inline mr-3">
