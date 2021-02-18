@@ -43,31 +43,53 @@ const PortfolioPage = () => (
       </li>
       <li>
         <div class="card mb-3">
-        <div class="card-body">
-        <h2 class="h5 card-title text-dark">
-          Workflow Diagram
-        </h2>
-        <p class="text-secondary">
-          Use BPMN to create quick flowchart. 
-          Each node can be easy to associate with properties or form data.
-        </p>
-        <ul class="ml-0">
-          <li class="d-inline mr-3">
-            <a href="https://github.com/ccapeng/bpmn-workflow"
-              target="_blank" 
-              rel="noreferrer">
-              github
-            </a>
-          </li>
-          <li class="d-inline">
-            <a href="https://bpmn-workflow.herokuapp.com/"
-              target="_blank" 
-              rel="noreferrer">
-              Demo
-            </a>
-          </li>
-        </ul>
+          <div class="card-body">
+          <h2 class="h5 card-title text-dark">
+            Workflow Diagram
+          </h2>
+          <p class="text-secondary">
+            Use BPMN to create quick flowchart. 
+            Each node can be easy to associate with properties or form data.
+          </p>
+          <ul class="ml-0">
+            <li class="d-inline mr-3">
+              <a href="https://github.com/ccapeng/bpmn-workflow"
+                target="_blank" 
+                rel="noreferrer">
+                github
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://bpmn-workflow.herokuapp.com/"
+                target="_blank" 
+                rel="noreferrer">
+                Demo
+              </a>
+            </li>
+          </ul>
+          </div>
         </div>
+      </li>
+      <li>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="h5 card-title text-dark">
+              React Depoyment Protection
+            </h2>
+            <p class="text-secondary">
+              No url endpoint expose to public.  
+              Avoid code logic leak to public.
+            </p>
+            <ul class="ml-0">
+              <li class="d-inline mr-3">
+                <a href="https://github.com/ccapeng/bookstore_pro"
+                  target="_blank" 
+                  rel="noreferrer">
+                  github
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </li>
       <li>
