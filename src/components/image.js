@@ -23,7 +23,7 @@ const Image = ({name, alt, className}) => {
           }
         }
       }
-      boatImage: file(relativePath: { eq: "boat.png" }) {
+      boatImage: file(relativePath: { eq: "monster.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -49,7 +49,7 @@ const Image = ({name, alt, className}) => {
     return <div>Picture not found</div>
   }
 
-  if (name === "boat.png") {
+  if (name === "monster.png") {
     return <Img fluid={data.boatImage.childImageSharp.fluid} alt={alt} className={className} />
   } else if (name === "life.svg") {
     const image = data.lifeSVG.nodes.find(

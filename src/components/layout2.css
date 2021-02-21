@@ -1,12 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+
 html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 1.25rem georgia, serif, sans-serif;
+  font-weight: 200;
   box-sizing: border-box;
   overflow-y: scroll;
 }
 body {
   margin: 0;
-	background-color: #232425;
+	background-color: #393A3F;
 	color: #f1f2f3;
+}
+
+.navlogo{
+  color: ##5ab4f8;
+  font-family: Merienda;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+h1{
+  font-family: Merienda;
+  color: #deac78
+}
+a {
+  color:#2a8ef4
+}
+
+a:hover{
+  color: #b259b4
+}
+
+svg {
+  fill: #2a8ef4;
+}
+
+svg:hover {
+  fill: #b259b4;
+}
+
+@media (min-width: 768px) {  
+  p.col2{
+    column-count: 2;
+    column-gap: 2rem;
+  }
+}
+
+footer{
+  font-family: Merienda;
+  font-size: small;
+  font-weight: 200;
+  margin-top: 5rem;
+  text-align: right;
 }

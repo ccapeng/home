@@ -8,7 +8,7 @@ const MotivationPage = () => (
     <SEO title="Motivation" />
 
     <h1>Motivation</h1>
-    <p>
+    <p class="col2">
       In this routine, I would address “Focus” particularly.
       How many times I wanted to listen music when working, but felt that was too loud to focus. 
       The procrastination went on and on. 

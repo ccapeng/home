@@ -3,23 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      backgroundColor: ``,
-    }}
-    className="mb-3"
-  >
+  <header class="mb-3">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-      </Link>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="navlogo">
+        <Link to="/">{siteTitle}</Link>
+      </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
