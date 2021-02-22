@@ -124,7 +124,7 @@ const PortfolioPage = () => (
               </li>
               <li>
                 <span class="text-dark mr-1">PHP Laravel</span>
-                <a href="https://github.com/ccapeng/laravel-bookstore"
+                <a href="https://github.com/ccapeng/laravel_bookstore"
                   target="_blank" 
                   title="Github"
                   rel="noreferrer">
