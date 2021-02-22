@@ -104,61 +104,142 @@ const PortfolioPage = () => (
       </li>
       <li>
         <div class="card mb-3">
-        <div class="card-body">
-        <h2 class="h5 card-title text-dark">
-          REST, GraphQL, gRPC
-        </h2>
-        <p class="text-secondary">
-          From the battery included framework,
-          create a full stack for a quick prototype demo.
-        </p>
-        <ul>
-          <li>
-            <span class="text-dark mr-1">Fullstack</span>
-            <a href="https://github.com/ccapeng/bookstore"
-              target="_blank" 
-              title="Github"
-              rel="noreferrer">
-                <FontAwesomeIcon icon={faGithub} size="1x"/>
-            </a>
-          </li>
-        </ul>
-        <p class="text-secondary mt-3">
-          Then later on to move into sing page application(SPA).
-        </p>
-        <ul>
-          <li class="d-inline mr-3">
-            <span class="text-dark mr-1">REST</span>
-            <a href="https://github.com/ccapeng/bookstore_openapi"
-              target="_blank" 
-              title="Github"
-              rel="noreferrer">
-                <FontAwesomeIcon icon={faGithub} size="1x"/>
-            </a>
-          </li>
-          <li class="d-inline mr-3">
-            <span class="text-dark mr-1">GraphQL</span>
-            <a href="https://github.com/ccapeng/bookstore_graphql"
-              target="_blank" 
-              title="Github"
-              rel="noreferrer">
-                <FontAwesomeIcon icon={faGithub} size="1x"/>
-            </a>
-          </li>
-          <li class="d-inline mr-3">
-            <span class="text-dark mr-1">gRPC</span>
-            <a href="https://github.com/ccapeng/bookstore_grpc" 
-              target="_blank" 
-              title="Github"
-              rel="noreferrer">
-                <FontAwesomeIcon icon={faGithub} size="1x"/>
-            </a>
-          </li>
-        </ul>
-        </div>
+          <div class="card-body">
+            <h2 class="h5 card-title text-dark">
+              Fullstack
+            </h2>
+            <p class="text-secondary">
+              From the battery included framework,
+              create a full stack for a quick prototype demo.
+            </p>
+            <ul>
+              <li>
+                <span class="text-dark mr-1">Django Fullstack</span>
+                <a href="https://github.com/ccapeng/django-bookstore"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li>
+                <span class="text-dark mr-1">PHP Laravel</span>
+                <a href="https://github.com/ccapeng/laravel-bookstore"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </li>
+      <li>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="h5 card-title text-dark">
+              REST, GraphQL, gRPC
+            </h2>
+            <h2 class="h6 text-dark">
+              Server Side (Python Django)
+            </h2>
+            <ul>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">REST</span>
+                <a href="https://github.com/ccapeng/bookstore_openapi"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">GraphQL</span>
+                <a href="https://github.com/ccapeng/bookstore_graphql"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">gRPC</span>
+                <a href="https://github.com/ccapeng/bookstore_grpc" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
+            <h2 class="h6 text-dark">
+              Client Side (React)
+            </h2>
+            <ul>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">REST</span>
+                <a href="https://github.com/ccapeng/bookstore-hook-redux"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    Redux <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+                <a href="https://github.com/ccapeng/bookstore-jotai"
+                  target="_blank" 
+                  title="Github"
+                  class="ml-2"
+                  rel="noreferrer">
+                    Jotai <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Redux GraphQL</span>
+                <a href="https://github.com/ccapeng/bookstore-redux-graphql"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Redux gRPC</span>
+                <a href="https://github.com/ccapeng/bookstore-redux-grpc" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
 
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="h5 card-title text-dark">
+              Beego CRUD
+            </h2>
+            <p class="text-secondary">
+              Go with Beego data modeling.
+              Use bookstore as sample. 
+              Also demostrate how to do multiple joined data modeling.
+            </p>
+            <ul class="ml-0 pl-0">
+              <li class="d-inline mr-3">
+                <a href="https://github.com/ccapeng/beego-bookstore"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                  <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
     </ul>
 
   </Layout>
