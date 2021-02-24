@@ -8,8 +8,8 @@ import "./index.scss"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { faSmileWink, faBiking, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
-import { faBlogger, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faSmileWink, faBiking, faBook, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
+import { faBlogger, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const IndexPage = () => (
   <Layout>
@@ -57,7 +57,7 @@ const IndexPage = () => (
       <li>Simple nature expression</li>
       <li>Ladybug squad</li>
     </ul>
-    <h3 class="mt-5 mb-3">What Am I Doing?</h3>
+    <h3 class="mt-5 mb-3">Other Sites:</h3>
     <ul>
       <li class="d-inline mr-3">
         <Link to="/portfolio"
@@ -74,12 +74,28 @@ const IndexPage = () => (
             <FontAwesomeIcon icon={faGithub} size="3x"/>
         </a>
       </li>
-      <li class="d-inline">
+      <li class="d-inline mr-3">
         <a href="https://ccapeng.blogspot.com/"
           target="_blank" 
           title="Blog"
           rel="noreferrer">
             <FontAwesomeIcon icon={faBlogger} size="3x"/>
+        </a>
+      </li>
+      <li class="d-inline mr-3">
+        <a href="https://www.linkedin.com/in/alex-peng-48283412/"
+          target="_blank" 
+          title="Linkedin"
+          rel="noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="3x"/>
+        </a>
+      </li>
+      <li class="d-inline">
+        <a href="https://ccapeng.gitbook.io/programming"
+          target="_blank" 
+          title="Gitbook"
+          rel="noreferrer">
+            <FontAwesomeIcon icon={faBook} size="3x"/>
         </a>
       </li>
     </ul>

@@ -1,7 +1,7 @@
 import React from "react"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faPlay, faBook } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import Layout from "../components/layout"
@@ -111,6 +111,14 @@ const PortfolioPage = () => (
             <p class="text-secondary">
               From the battery included framework,
               create a full stack for a quick prototype demo.
+              Check my bookstore project:
+              <a href="https://ccapeng.gitbook.io/bookstores"
+                target="_blank" 
+                class="ml-1"
+                title="Gitbook"
+                rel="noreferrer">
+                  <FontAwesomeIcon icon={faBook} size="1x"/>
+              </a>
             </p>
             <ul>
               <li>
