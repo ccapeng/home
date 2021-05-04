@@ -1,11 +1,11 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const MotivationPage = () => (
   <Layout>
-    <SEO title="Motivation" />
+    <Seo title="Motivation" />
 
     <h1>Motivation</h1>
     <p class="col2">

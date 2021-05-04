@@ -2,11 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const LearningPage = () => (
   <Layout>
-    <SEO title="Learning" />
+    <Seo title="Learning" />
     <h1>Learning</h1>
     <p class="col2">
       Learning is just part of my life. In the schools, I read books and received knowledge from teacher. Now, I am learning from my life and receiving knowledge from my senses. My routine is pretty much cycle like this:

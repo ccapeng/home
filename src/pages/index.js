@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import "./index.scss"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,7 +13,7 @@ import { faBlogger, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
   
     <div style={{ 
       maxWidth: `100%`, 

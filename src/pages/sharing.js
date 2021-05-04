@@ -1,12 +1,12 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Image from "../components/image"
 
 const SharingPage = () => (
   <Layout>
-    <SEO title="Sharing" />
+    <Seo title="Sharing" />
     <h1>Sharing</h1>
     <p>
       With years of experiences, 
