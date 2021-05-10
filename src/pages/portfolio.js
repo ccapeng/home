@@ -85,73 +85,33 @@ const PortfolioPage = () => (
 
       <li>
         <div class="card mb-3">
-        <div class="card-body">
-          <div class="card-title clearfix">  
-            <h2 class="h5 text-dark float-left">
-              RSS Feed Aggregation
-            </h2>
-            <div class="float-right">
-              <div class="badge badge-primary font-weight-normal">Node.js</div>
-              <div class="badge badge-primary font-weight-normal ml-1">React</div>
-              <div class="badge badge-primary font-weight-normal ml-1">MongoDB</div>
+          <div class="card-body">
+            <div class="card-title clearfix">  
+              <h2 class="h5 text-dark float-left">
+                Earthquakes
+              </h2>
+              <div class="float-right">
+                <div class="badge badge-primary font-weight-normal">Node.js</div>
+                <div class="badge badge-primary font-weight-normal ml-1">Elastic Search</div>
+              </div>
             </div>
+            <p class="text-secondary">
+              Relay earthquake data and output as REST APIs.
+            </p>
+            <ul class="ml-0 pl-0">
+              <li class="d-inline mr-3">
+                <a href="https://github.com/ccapeng/earthquakes"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
           </div>
-          <p class="text-secondary">
-            RSS feeds from multiple news sources.
-          </p>
-          <ul class="ml-0 pl-0">
-            <li class="d-inline mr-3">
-              <a href="https://github.com/ccapeng/rss-trendy"
-                target="_blank" 
-                title="Github"
-                rel="noreferrer">
-                  <FontAwesomeIcon icon={faGithub} size="1x"/>
-              </a>
-              <span class="ml-3 text-secondary" title="Docker">
-                  <FontAwesomeIcon icon={faDocker} size="1x"/>
-              </span>
-            </li>
-          </ul>
-        </div>
         </div>
       </li>
 
-      <li>
-        <div class="card mb-3">
-          <div class="card-body">
-          <div class="card-title clearfix">
-            <h2 class="h5 text-dark float-left">
-              Workflow Diagram
-            </h2>
-            <div class="float-right">
-              <div class="badge badge-primary font-weight-normal">React</div>
-            </div>
-          </div>
-          <p class="text-secondary">
-            Use BPMN to create quick flowchart. 
-            Each node can be easy to associate with properties or form data.
-          </p>
-          <ul class="ml-0 pl-0">
-            <li class="d-inline mr-3">
-              <a href="https://github.com/ccapeng/bpmn-workflow"
-                target="_blank" 
-                title="Github"
-                rel="noreferrer">
-                <FontAwesomeIcon icon={faGithub} size="1x"/>
-              </a>
-            </li>
-            <li class="d-inline">
-              <a href="https://bpmn-workflow.herokuapp.com/"
-                target="_blank" 
-                title="Demo"
-                rel="noreferrer">
-                <FontAwesomeIcon icon={faPlay} size="1x"/>
-              </a>
-            </li>
-          </ul>
-          </div>
-        </div>
-      </li>
       <li>
         <div class="card mb-3">
           <div class="card-body">
@@ -181,6 +141,7 @@ const PortfolioPage = () => (
           </div>
         </div>
       </li>
+      
       <li>
         <div class="card mb-3">
           <div class="card-body">
@@ -228,6 +189,7 @@ const PortfolioPage = () => (
           </div>
         </div>
       </li>
+      
       <li>
         <div class="card mb-3">
           <div class="card-body">
@@ -315,6 +277,7 @@ const PortfolioPage = () => (
           </div>
         </div>
       </li>
+      
       <li>
         <div class="card mb-3">
           <div class="card-body">
@@ -344,6 +307,44 @@ const PortfolioPage = () => (
           </div>
         </div>
       </li>
+
+      <li>
+        <div class="card mb-3">
+          <div class="card-body">
+          <div class="card-title clearfix">
+            <h2 class="h5 text-dark float-left">
+              Workflow Diagram
+            </h2>
+            <div class="float-right">
+              <div class="badge badge-primary font-weight-normal">React</div>
+            </div>
+          </div>
+          <p class="text-secondary">
+            Use BPMN to create quick flowchart. 
+            Each node can be easy to associate with properties or form data.
+          </p>
+          <ul class="ml-0 pl-0">
+            <li class="d-inline mr-3">
+              <a href="https://github.com/ccapeng/bpmn-workflow"
+                target="_blank" 
+                title="Github"
+                rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} size="1x"/>
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://bpmn-workflow.herokuapp.com/"
+                target="_blank" 
+                title="Demo"
+                rel="noreferrer">
+                <FontAwesomeIcon icon={faPlay} size="1x"/>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </li>
+
     </ul>
 
   </Layout>
