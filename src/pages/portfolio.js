@@ -17,17 +17,19 @@ const PortfolioPage = () => (
       how to move on the projects and
       what other enhancements can be achived.
     </p>
-    <ul style={{ listStyle: "none"}}>
-      
+    <ul style={{ listStyle: "none"}} class="ml-0 pl-0">
       <li>
         <div class="card mb-3">
         <div class="card-body">
           <div class="card-title clearfix">  
             <h2 class="h5 text-dark float-left">
-              HTML document with React
+              RSS News
             </h2>
             <div class="float-right">
-              <div class="badge badge-primary font-weight-normal">React</div>
+              <div class="badge badge-primary font-weight-normal">Node.js</div>
+              <div class="badge badge-primary font-weight-normal ml-1">React</div>
+              <div class="badge badge-primary font-weight-normal ml-1">MongoDB</div>
+              <div class="badge badge-primary font-weight-normal ml-1">Elastic Search</div>
             </div>
           </div>
           <p class="text-secondary">
@@ -43,40 +45,9 @@ const PortfolioPage = () => (
               </a>
             </li>
             <li class="d-inline">
-              <a href="https://doc-react.herokuapp.com/"
-                target="_blank" 
-                title="Demo"
-                rel="noreferrer">
-                  <FontAwesomeIcon icon={faPlay} size="1x"/>
-              </a>
-            </li>
-          </ul>
-        </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="card mb-3">
-        <div class="card-body">
-          <div class="card-title clearfix">  
-            <h2 class="h5 text-dark float-left">
-              ORM
-            </h2>
-            <div class="float-right">
-              <div class="badge badge-primary font-weight-normal">Node.js</div>
-            </div>
-          </div>
-          <p class="text-secondary">
-            Use object relationship mapping (ORM) to do object modeling.
-          </p>
-          <ul class="ml-0 pl-0">
-            <li class="d-inline mr-3">
-              <a href="https://github.com/ccapeng/typeorm"
-                target="_blank" 
-                title="Github"
-                rel="noreferrer">
-                  <FontAwesomeIcon icon={faGithub} size="1x"/>
-              </a>
+              <span title="Docker" class="text-secondary">
+                <FontAwesomeIcon icon={faDocker} size="1x"/>
+              </span>
             </li>
           </ul>
         </div>
@@ -92,6 +63,7 @@ const PortfolioPage = () => (
               </h2>
               <div class="float-right">
                 <div class="badge badge-primary font-weight-normal">Node.js</div>
+                <div class="badge badge-primary font-weight-normal ml-1">MongoDB</div>
                 <div class="badge badge-primary font-weight-normal ml-1">Elastic Search</div>
               </div>
             </div>
@@ -147,7 +119,7 @@ const PortfolioPage = () => (
           <div class="card-body">
             <div class="card-title clearfix">
             <h2 class="h5 text-dark float-left">
-              Fullstack
+              Server Side Bookstore
             </h2>
             <div class="float-right">
               <div class="badge badge-primary font-weight-normal">Python</div>
@@ -192,22 +164,59 @@ const PortfolioPage = () => (
       
       <li>
         <div class="card mb-3">
+        <div class="card-body">
+          <div class="card-title clearfix">  
+            <h2 class="h5 text-dark float-left">
+              HTML document with React
+            </h2>
+            <div class="float-right">
+              <div class="badge badge-primary font-weight-normal">React</div>
+            </div>
+          </div>
+          <p class="text-secondary">
+            Put together all html documents.
+          </p>
+          <ul class="ml-0 pl-0">
+            <li class="d-inline mr-3">
+              <a href="https://github.com/ccapeng/doc-react"
+                target="_blank" 
+                title="Github"
+                rel="noreferrer">
+                  <FontAwesomeIcon icon={faGithub} size="1x"/>
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://doc-react.herokuapp.com/"
+                target="_blank" 
+                title="Demo"
+                rel="noreferrer">
+                  <FontAwesomeIcon icon={faPlay} size="1x"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="card mb-3">
           <div class="card-body">
             <div class="card-title clearfix">
             <h2 class="h5 text-dark float-left">
-              REST, GraphQL, gRPC
+              Fullstack Bookstore
             </h2>
             <div class="float-right">
-              <div class="badge badge-primary font-weight-normal">Python</div>
+            <div class="badge badge-primary font-weight-normal">Node.js</div>
+              <div class="badge badge-primary font-weight-normal ml-1">Python</div>
               <div class="badge badge-primary font-weight-normal ml-1">React</div>
             </div>
             </div>
             <h2 class="h6 text-dark">
-              Server Side (Python Django)
+              Back End
             </h2>
             <ul>
               <li class="d-inline mr-3">
-                <span class="text-dark mr-1">REST</span>
+                <span class="text-dark mr-1">Django REST</span>
                 <a href="https://github.com/ccapeng/bookstore_openapi"
                   target="_blank" 
                   title="Github"
@@ -216,7 +225,7 @@ const PortfolioPage = () => (
                 </a>
               </li>
               <li class="d-inline mr-3">
-                <span class="text-dark mr-1">GraphQL</span>
+                <span class="text-dark mr-1">Django GraphQL</span>
                 <a href="https://github.com/ccapeng/bookstore_graphql"
                   target="_blank" 
                   title="Github"
@@ -225,7 +234,7 @@ const PortfolioPage = () => (
                 </a>
               </li>
               <li class="d-inline mr-3">
-                <span class="text-dark mr-1">gRPC</span>
+                <span class="text-dark mr-1">Django gRPC</span>
                 <a href="https://github.com/ccapeng/bookstore_grpc" 
                   target="_blank" 
                   title="Github"
@@ -233,9 +242,27 @@ const PortfolioPage = () => (
                     <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
               </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Flask REST</span>
+                <a href="https://github.com/ccapeng/bookstore_flask_api" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Node.js</span>
+                <a href="https://github.com/ccapeng/typeorm-bookstore" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
             </ul>
-            <h2 class="h6 text-dark">
-              Client Side (React)
+            <h2 class="h6 text-dark mt-3">
+              Front End (React)
             </h2>
             <ul>
               <li class="d-inline mr-3">
@@ -254,7 +281,7 @@ const PortfolioPage = () => (
                     Jotai <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
               </li>
-              <li class="d-inline mr-3">
+              <li class="d-inline mr-3 text-nowrap">
                 <span class="text-dark mr-1">Redux GraphQL</span>
                 <a href="https://github.com/ccapeng/bookstore-redux-graphql"
                   target="_blank" 
@@ -263,7 +290,7 @@ const PortfolioPage = () => (
                     <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
               </li>
-              <li class="d-inline mr-3">
+              <li class="d-inline mr-3 text-nowrap">
                 <span class="text-dark mr-1">Redux gRPC</span>
                 <a href="https://github.com/ccapeng/bookstore-redux-grpc" 
                   target="_blank" 
@@ -278,36 +305,6 @@ const PortfolioPage = () => (
         </div>
       </li>
       
-      <li>
-        <div class="card mb-3">
-          <div class="card-body">
-            <div class="card-title clearfix">
-            <h2 class="h5 text-dark float-left">
-              Beego CRUD
-            </h2>
-            <div class="float-right">
-              <div class="badge badge-primary font-weight-normal">Go</div>
-            </div>
-            </div>
-            <p class="text-secondary">
-              Go with Beego data modeling.
-              Use bookstore as sample. 
-              Also demostrate how to do multiple joined data modeling.
-            </p>
-            <ul class="ml-0 pl-0">
-              <li class="d-inline mr-3">
-                <a href="https://github.com/ccapeng/beego-bookstore"
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                  <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </li>
-
       <li>
         <div class="card mb-3">
           <div class="card-body">
