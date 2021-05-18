@@ -33,7 +33,7 @@ const PortfolioPage = () => (
             </div>
           </div>
           <p class="text-secondary">
-            News aggregation from the different new sources.
+            News aggregation from the different news sources.
             Also apply elastic search and ML topic modeling.
           </p>
           <ul class="ml-0 pl-0">
