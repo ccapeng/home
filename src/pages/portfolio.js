@@ -116,6 +116,9 @@ const PortfolioPage = () => (
                   rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
+                <span class="text-secondary ml-1" title="Dockerify">
+                  <FontAwesomeIcon icon={faDocker} size="1x" />
+                </span>
               </li>
               <li class="d-inline mr-3">
                 <span class="text-dark mr-1">Flask REST</span>
@@ -134,6 +137,9 @@ const PortfolioPage = () => (
                   rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
+                <span class="text-secondary ml-1" title="Dockerify">
+                  <FontAwesomeIcon icon={faDocker} size="1x" />
+                </span>
               </li>
               <li class="d-inline mr-3 text-nowrap">
                 <span class="text-dark mr-1">React Redux</span>
