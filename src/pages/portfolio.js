@@ -33,11 +33,12 @@ const PortfolioPage = () => (
             </div>
           </div>
           <p class="text-secondary">
-            Put together all html documents.
+            News aggregation from the different new sources.
+            Also apply elastic search and ML topic modeling.
           </p>
           <ul class="ml-0 pl-0">
             <li class="d-inline mr-3">
-              <a href="https://github.com/ccapeng/doc-react"
+              <a href="https://github.com/ccapeng/rss-trendy"
                 target="_blank" 
                 title="Github"
                 rel="noreferrer">
@@ -45,7 +46,7 @@ const PortfolioPage = () => (
               </a>
             </li>
             <li class="d-inline">
-              <span title="Docker" class="text-secondary">
+              <span title="Dockerify" class="text-secondary">
                 <FontAwesomeIcon icon={faDocker} size="1x"/>
               </span>
             </li>
@@ -73,6 +74,130 @@ const PortfolioPage = () => (
             <ul class="ml-0 pl-0">
               <li class="d-inline mr-3">
                 <a href="https://github.com/ccapeng/earthquakes"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="card-title clearfix">
+            <h2 class="h5 text-dark float-left">
+              Fullstack Bookstore
+            </h2>
+            <div class="float-right">
+            <div class="badge badge-primary font-weight-normal">Node.js</div>
+              <div class="badge badge-primary font-weight-normal ml-1">Python</div>
+              <div class="badge badge-primary font-weight-normal ml-1">React</div>
+            </div>
+            </div>
+            
+            <div class="text-dark mt-1 mb-1">
+              <h2 class="h6">
+                REST
+              </h2>
+              <div class="pl-3 text-secondary">
+                With REST APIs, try to mix match backend and frontend.
+              </div>
+            </div>
+            <ul class="pl-3">
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Django REST</span>
+                <a href="https://github.com/ccapeng/bookstore_openapi"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Flask REST</span>
+                <a href="https://github.com/ccapeng/bookstore_flask_api" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Node.js TypeORM</span>
+                <a href="https://github.com/ccapeng/typeorm-bookstore" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3 text-nowrap">
+                <span class="text-dark mr-1">React Redux</span>
+                <a href="https://github.com/ccapeng/bookstore-hook-redux"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} title="Github" size="1x"/>
+                </a>
+                <span class="text-secondary ml-1" title="Dockerify">
+                  <FontAwesomeIcon icon={faDocker} size="1x" />
+                </span>
+              </li>
+              <li class="d-inline mr-3 text-nowrap">
+                <span class="text-dark mr-1">React Jotai</span>
+                <a href="https://github.com/ccapeng/bookstore-jotai"
+                  target="_blank" 
+                  title="Github"
+                  class="ml-2"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
+            <h2 class="h6 text-dark mt-2 mb-1">
+              GraphQL
+            </h2>
+            <ul class="pl-3">
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Django GraphQL</span>
+                <a href="https://github.com/ccapeng/bookstore_graphql"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3 text-nowrap">
+                <span class="text-dark mr-1">Redux GraphQL</span>
+                <a href="https://github.com/ccapeng/bookstore-redux-graphql"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+            </ul>
+
+            <h2 class="h6 text-dark mt-2 mb-1">
+              gRPC
+            </h2>
+            <ul class="pl-3">
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Django gRPC</span>
+                <a href="https://github.com/ccapeng/bookstore_grpc" 
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
+              <li class="d-inline mr-3 text-nowrap">
+                <span class="text-dark mr-1">Redux gRPC</span>
+                <a href="https://github.com/ccapeng/bookstore-redux-grpc" 
                   target="_blank" 
                   title="Github"
                   rel="noreferrer">
@@ -161,7 +286,7 @@ const PortfolioPage = () => (
           </div>
         </div>
       </li>
-      
+
       <li>
         <div class="card mb-3">
         <div class="card-body">
@@ -195,113 +320,6 @@ const PortfolioPage = () => (
             </li>
           </ul>
         </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="card mb-3">
-          <div class="card-body">
-            <div class="card-title clearfix">
-            <h2 class="h5 text-dark float-left">
-              Fullstack Bookstore
-            </h2>
-            <div class="float-right">
-            <div class="badge badge-primary font-weight-normal">Node.js</div>
-              <div class="badge badge-primary font-weight-normal ml-1">Python</div>
-              <div class="badge badge-primary font-weight-normal ml-1">React</div>
-            </div>
-            </div>
-            <h2 class="h6 text-dark">
-              Back End
-            </h2>
-            <ul>
-              <li class="d-inline mr-3">
-                <span class="text-dark mr-1">Django REST</span>
-                <a href="https://github.com/ccapeng/bookstore_openapi"
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-              <li class="d-inline mr-3">
-                <span class="text-dark mr-1">Django GraphQL</span>
-                <a href="https://github.com/ccapeng/bookstore_graphql"
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-              <li class="d-inline mr-3">
-                <span class="text-dark mr-1">Django gRPC</span>
-                <a href="https://github.com/ccapeng/bookstore_grpc" 
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-              <li class="d-inline mr-3">
-                <span class="text-dark mr-1">Flask REST</span>
-                <a href="https://github.com/ccapeng/bookstore_flask_api" 
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-              <li class="d-inline mr-3">
-                <span class="text-dark mr-1">Node.js</span>
-                <a href="https://github.com/ccapeng/typeorm-bookstore" 
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-            </ul>
-            <h2 class="h6 text-dark mt-3">
-              Front End (React)
-            </h2>
-            <ul>
-              <li class="d-inline mr-3">
-                <span class="text-dark mr-1">REST</span>
-                <a href="https://github.com/ccapeng/bookstore-hook-redux"
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    Redux <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-                <a href="https://github.com/ccapeng/bookstore-jotai"
-                  target="_blank" 
-                  title="Github"
-                  class="ml-2"
-                  rel="noreferrer">
-                    Jotai <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-              <li class="d-inline mr-3 text-nowrap">
-                <span class="text-dark mr-1">Redux GraphQL</span>
-                <a href="https://github.com/ccapeng/bookstore-redux-graphql"
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-              <li class="d-inline mr-3 text-nowrap">
-                <span class="text-dark mr-1">Redux gRPC</span>
-                <a href="https://github.com/ccapeng/bookstore-redux-grpc" 
-                  target="_blank" 
-                  title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="1x"/>
-                </a>
-              </li>
-            </ul>
-
-          </div>
         </div>
       </li>
       
