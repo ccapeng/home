@@ -2,7 +2,7 @@ import React from "react"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faBook } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faDocker } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faDocker, faAws } from '@fortawesome/free-brands-svg-icons'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -66,6 +66,7 @@ const PortfolioPage = () => (
                 <div class="badge badge-primary font-weight-normal">Node.js</div>
                 <div class="badge badge-primary font-weight-normal ml-1">MongoDB</div>
                 <div class="badge badge-primary font-weight-normal ml-1">Elastic Search</div>
+                <div class="badge badge-primary font-weight-normal ml-1">AWS</div>
               </div>
             </div>
             <p class="text-secondary">
@@ -80,6 +81,16 @@ const PortfolioPage = () => (
                     <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
               </li>
+              <li class="d-inline mr-3">
+                <a href="http://alex-react.s3-website-us-east-1.amazonaws.com/"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faAws} size="1x"/>
+                </a>
+              </li>
+              
+
             </ul>
           </div>
         </div>
@@ -321,7 +332,8 @@ const PortfolioPage = () => (
                 target="_blank" 
                 title="Demo"
                 rel="noreferrer">
-                  <FontAwesomeIcon icon={faPlay} size="1x"/>
+                  <FontAwesomeIcon icon={faPlay} size="1x" className="mr-1" />
+                  Heroku
               </a>
             </li>
           </ul>
@@ -358,7 +370,8 @@ const PortfolioPage = () => (
                 target="_blank" 
                 title="Demo"
                 rel="noreferrer">
-                <FontAwesomeIcon icon={faPlay} size="1x"/>
+                <FontAwesomeIcon icon={faPlay} size="1x" className="mr-1" />
+                Heroku
               </a>
             </li>
           </ul>
