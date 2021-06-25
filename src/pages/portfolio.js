@@ -86,11 +86,17 @@ const PortfolioPage = () => (
                   target="_blank" 
                   title="Github"
                   rel="noreferrer">
-                    <FontAwesomeIcon icon={faAws} size="1x"/>
+                    <FontAwesomeIcon icon={faAws} size="1x"/> S3
                 </a>
               </li>
-              
-
+              <li class="d-inline mr-3">
+                <a href="https://zwr90fcqtl.execute-api.us-east-1.amazonaws.com/dev/api/earthquakes"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faAws} size="1x"/> Lambda
+                </a>
+              </li>
             </ul>
           </div>
         </div>
