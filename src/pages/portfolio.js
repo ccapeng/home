@@ -194,6 +194,15 @@ const PortfolioPage = () => (
                     <FontAwesomeIcon icon={faGithub} size="1x"/>
                 </a>
               </li>
+              <li class="d-inline mr-3">
+                <span class="text-dark mr-1">Node Express Apollo</span>
+                <a href="https://github.com/ccapeng/bookstore_node_gql"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="1x"/>
+                </a>
+              </li>
               <li class="d-inline mr-3 text-nowrap">
                 <span class="text-dark mr-1">Redux GraphQL</span>
                 <a href="https://github.com/ccapeng/bookstore-redux-graphql"
