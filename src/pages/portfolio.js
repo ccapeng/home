@@ -82,20 +82,36 @@ const PortfolioPage = () => (
                 </a>
               </li>
               <li class="d-inline mr-3">
+                <span title="AWS" class="text-secondary">
+                  <FontAwesomeIcon icon={faAws} size="1x"/>
+                </span>
                 <a href="http://alex-react.s3-website-us-east-1.amazonaws.com/"
                   target="_blank" 
                   title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faAws} size="1x"/> S3
+                  rel="noreferrer"
+                  class="ml-2"
+                  >
+                     S3
                 </a>
-              </li>
-              <li class="d-inline mr-3">
+
                 <a href="https://zwr90fcqtl.execute-api.us-east-1.amazonaws.com/dev/api/earthquakes"
                   target="_blank" 
                   title="Github"
-                  rel="noreferrer">
-                    <FontAwesomeIcon icon={faAws} size="1x"/> Lambda
+                  rel="noreferrer"
+                  class="ml-2"
+                  >
+                    Lambda
                 </a>
+
+                <a href="https://d18i7nuoh1e3vv.cloudfront.net/"
+                  target="_blank" 
+                  title="Github"
+                  rel="noreferrer"
+                  class="ml-2"
+                  >
+                    Cloudfront
+                </a>
+
               </li>
             </ul>
           </div>
