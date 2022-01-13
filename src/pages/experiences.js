@@ -12,16 +12,17 @@ const ExperiencePage = () => (
         pretty much came out the solution from ground up. 
       Understanding all the know how, 
         solving the complications. 
-      With deep thinking, I can work independently.
+      Can the modern trend save developers?
     </p>
     <p>
-      From indiviual contributor to the driver of team,
+      From indiviual contributor to the drive of team,
         my formula to success to find the right method.
-      Always consistent and improved constantly.
+      And improved constantly.
     </p>
     <p>
-      It's my crown jewel.
-      I would happy to share.
+      Independent thinking and progressive approach
+      with fundamental software engineering.
+      I am happy to share.
     </p>
   </Layout>
 )
